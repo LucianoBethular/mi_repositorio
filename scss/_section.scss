@@ -1,0 +1,64 @@
+section{
+    margin-top: 5rem;
+}
+.section__contenido {
+    grid-area: contenido;    
+    display: grid;
+    align-items: center;
+}
+.section__mapa2 {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 2fr , 2fr;
+}
+.section__mapa {
+    transform: translate(470px, -470px);
+    }
+
+table {
+    border-collapse: collapse;
+    align-items: center;
+    border-color: black;
+    margin: auto;
+    font-family: 'Poppins', sans-serif;   
+    color: black;
+    font-weight: bolder;
+    
+}
+
+table ul {
+        list-style-type: square;
+}
+
+.accordion-item button{
+    background-color: rgb(49, 49, 49);
+    color: deepskyblue;
+    border-radius: 5px;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif
+}
+.accordion-body {
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-weight: bolder
+}
+.accordion-item button:hover{
+    background-color: black;
+}
+
+input {
+@extend select ;
+border: none;
+}
+input:focus {
+    border: black solid;
+}
+select {
+    background-color: rgb(49, 49, 49);
+    color: black;
+    font-weight: bolder;
+}
+textarea {
+@extend select
+}
+

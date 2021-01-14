@@ -1,0 +1,17 @@
+footer {
+    grid-area: footer;
+    margin-left: 0px;
+    border-top: 4px solid black;
+}
+
+footer ul {
+    display: flex;
+    flex-direction:row-reverse;
+    list-style: none;
+    align-items: flex-end;
+    margin-top: 1rem;
+}
+
+footer ul li {
+    padding-left: 10px;
+}
