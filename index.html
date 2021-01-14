@@ -14,43 +14,22 @@
     <title>EMB Montajes</title>
 </head>
 <body id="grilla">
-
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-
-        <a class="navbar-brand" href="index.html"><h1>EMB</h1></a>
-    
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    
-            <span class="navbar-toggler-icon"></span>
-    
-        </button>
-    
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    
-            <ul class="navbar-nav ml-auto">
-    
-            <li class="nav-item"><a class="nav-link" href="pages/servicios.html">Servicios</a></li>
-    
-            <li class="nav-item"><a class="nav-link" href="pages/quienesomos.html">Quiénes somos</a></li>
-    
-            <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="pages/nuestrostrabajos.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Nuestros trabajos</a>
-    
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-    
-                <a class="dropdown-item" href="pages/nuestrostrabajos.html">Videos</a>
-    
-                <a class="dropdown-item" href="pages/imagenes.html">Imágenes</a>
-    
-                </div>
-    
-            </li>
-    
-            <li class="nav-item"><a class="nav-link" href="pages/contacto.html" tabindex="-1" aria-disabled="true">Contacto</a></li>
-    
-            </ul>
-    
+    <nav>
+        <div class="btn-group-vertical" role="group" aria-label="Button group with nested dropdown">
+            <button type="button" class="btn btn-primary"><h1><a href="../index.html" class="colorTitulo">EMB</a></h1></button>
+            <button type="button" class="btn btn-primary"><a href="servicios.html">Servicios</a></button>
+            <button type="button" class="btn btn-primary"><a href="quienesomos.html">¿Quienes Somos?</a></button>
+            <div class="btn-group dropend">
+                <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                Nuestros Trabajos
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                <li><a class="dropdown-item" href="nuestrostrabajos.html">Videos</a></li>
+                <li><a class="dropdown-item" href="imagenes.html">Imagenes</a></li>
+                </ul>
+            </div>
+            <button type="button" class="btn btn-primary"><a href="contacto.html">Contacto</a></button>
         </div>
-    
     </nav>
 <section class="section__contenido" >
     <table border="3" >
