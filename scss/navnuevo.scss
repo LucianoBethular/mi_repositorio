@@ -1,0 +1,36 @@
+nav {
+    grid-area: nav;
+    justify-content: start;
+}
+
+
+.btn-group-vertical button a{
+    color: deepskyblue;
+    text-decoration: none;
+}
+.btn-group-vertical button{
+background-color: rgb(49, 49, 49);
+border: rgb(49, 49, 49);
+color: deepskyblue;
+height: 9.5rem;
+font-family: 'Poppins', sans-serif;
+font-weight: bolder;
+}
+.btn-group-vertical button:hover{
+    background-color: black;
+}
+.dropdown-menu {
+    background-color: rgb(49, 49, 49);
+    color: deepskyblue;
+    
+}
+.dropdown-menu a:hover {
+    background-color: black;
+    color:deepskyblue;
+    text-decoration: none;
+    
+}
+.dropdown-menu a {
+    color: deepskyblue;
+    font-weight: bolder;
+}

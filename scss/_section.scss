@@ -1,10 +1,14 @@
 section{
-    margin-top: 5rem;
+    margin-top: 1rem;
+    border: 3px black solid;
 }
 .section__contenido {
     grid-area: contenido;    
     display: grid;
     align-items: center;
+    align-content: center;
+    width: 90%;
+    height: 90%;
 }
 .section__mapa2 {
     display: grid;
