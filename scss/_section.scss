@@ -1,14 +1,17 @@
 section{
-    margin-top: 1rem;
-    border: 3px black solid;
+    width: fixed
 }
 .section__contenido {
     grid-area: contenido;    
     display: grid;
-    align-items: center;
-    align-content: center;
-    width: 90%;
-    height: 90%;
+    align-items: left;
+    align-content: flex-start;
+    justify-content: left;
+    justify-items: left;
+    width: auto;
+    height: auto;
+    margin-left: 5rem;
+    margin-top: 3rem;
 }
 .section__mapa2 {
     display: grid;
@@ -16,7 +19,7 @@ section{
     grid-template-columns: 2fr , 2fr;
 }
 .section__mapa {
-    transform: translate(470px, -470px);
+    transform: translate(470px, -343px);
     }
 
 table {
@@ -35,8 +38,8 @@ table ul {
 }
 
 .accordion-item button{
-    background-color: rgb(49, 49, 49);
-    color: deepskyblue;
+    background-color: #343a40;
+    color: skyblue;
     border-radius: 5px;
     font-size: 25px;
     font-family: 'Poppins', sans-serif
@@ -66,3 +69,54 @@ textarea {
 @extend select
 }
 
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color:skyblue;
+    background-color: #343a40;
+    background-clip: padding-box;
+    border: 3px solid rgba(0, 0, 0, 0.15);
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color:#343a40;
+    border-color: skyblue;
+    outline: 0;
+    box-shadow: 0 0 0 0.01rem skyblue;
+}
+
+.form-control::placeholder {
+    color: skyblue;
+    opacity: 2;
+}
+.btn-dark {
+    color: skyblue;
+    background-color: #343a40;
+    border: 3px solid rgba(0, 0, 0, 0.15);
+    font-weight: bolder
+;
+  }
+  
+  .btn-dark:hover {
+    color:deepskyblue;
+    background-color: #23272b;
+    border-color: #1d2124;
+  }
+  
+  .btn-dark:focus, .btn-dark.focus {
+    box-shadow: 0 0 0 0.2rem rgba(52, 58, 64, 0.5);
+  }
+
+.centrar {
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center
+    ;
+}

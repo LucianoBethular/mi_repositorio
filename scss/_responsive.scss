@@ -28,19 +28,15 @@
     background-image: linear-gradient(to right bottom, #000000, #221b1e, #3b303a, #52485a, #65627d, #697394, #6986ab, #6599c0, #55a5c9, #43b2ce, #36bece, #37c9c9);
     background-attachment: fixed;
     }
-
-    .btn-group-vertical button{
-        background-color: rgb(49, 49, 49);
-        border: rgb(49, 49, 49);
-        color: deepskyblue;
-        height: 5rem;
-        font-family: 'Poppins', sans-serif;
-        font-weight: bolder;
-        }
+    
     
     section{
     
     width: 25rem;
+    }
+    .section__contenido {
+        margin-left: 0%;
+        margin-top: 1.5rem;
     }
     footer ul {
     display: flex;
@@ -49,5 +45,7 @@
     justify-content: center;
     margin-top: 1rem;
     }
-    
     }
+    .section__mapa {
+        transform: translate(470px, -343px);
+        }
