@@ -293,16 +293,19 @@ body {
     margin-top: -4.75%;
     height: 45%; } }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 480px) and (min-width: 380px) {
   .indice {
     margin-left: 5rem;
-    margin-top: 15.5rem;
-    height: 75%; }
+    margin-top: 12rem;
+    height: 70%;
+    width: 76%; }
   .banner {
     width: 100%;
     position: absolute;
     margin-top: -4.75%;
-    height: 45%; } }
+    height: 30%; }
+  h1 {
+    margin-left: 1rem; } }
 
 #grilla {
   display: grid;
