@@ -26,10 +26,17 @@
     grid-column-gap: 15px;
     grid-row-gap: 10px;
     height: 100vh; 
-    background-image: linear-gradient(to right bottom, #000000, #221b1e, #3b303a, #52485a, #65627d, #697394, #6986ab, #6599c0, #55a5c9, #43b2ce, #36bece, #37c9c9);
+    background-color: whitesmoke;
     background-attachment: fixed;
     }
     
+    .banner {
+        width: 100%;
+        position: absolute;
+        margin-top: -10px;
+        height: 45%;
+        
+        }
     
     section{
     
@@ -59,4 +66,34 @@
         width: 100%;
     }
         }
+
+    }
+
+    @media only screen and (max-width: 768px) {
+        .indice {
+            margin-left: 12.5rem;
+            margin-top: 26rem;
+        }
+        .banner {
+            width: 100%;
+            position: absolute;
+            margin-top: -4.75%;
+            height: 45%;
+            
+            }
+    }
+
+    @media only screen and (max-width: 480px) {
+        .indice {
+            margin-left: 5rem;
+            margin-top: 15.5rem;
+            height: 75%;
+        }
+        .banner {
+            width: 100%;
+            position: absolute;
+            margin-top: -4.75%;
+            height: 45%;
+            
+            }
     }
