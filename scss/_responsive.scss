@@ -19,6 +19,7 @@
     grid-template-areas:
     "nav nav nav"
     "contenido contenido contenido"
+    "contenido contenido contenido"
     "footer footer footer";
     grid-template-columns: 20% auto 10%;
     grid-template-rows: 15% 20% 70% 40%;
@@ -35,8 +36,9 @@
     width: 25rem;
     }
     .section__contenido {
-        margin-left: 0%;
+        margin-left: 0.5rem;
         margin-top: 1.5rem;
+        
     }
     footer ul {
     display: flex;
@@ -45,7 +47,16 @@
     justify-content: center;
     margin-top: 1rem;
     }
+    
+    .video-responsive {
+        height: 250;
     }
     .section__mapa {
-        transform: translate(470px, -343px);
+        transform: translate(0px, 0px);
+        
+    iframe {
+        position: absolute;
+        width: 100%;
+    }
         }
+    }

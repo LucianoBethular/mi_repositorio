@@ -1,5 +1,5 @@
 section{
-    width: fixed
+    width: fixed ;
 }
 .section__contenido {
     grid-area: contenido;    
@@ -20,6 +20,7 @@ section{
 }
 .section__mapa {
     transform: translate(470px, -343px);
+
     }
 
 table {
@@ -30,6 +31,7 @@ table {
     font-family: 'Poppins', sans-serif;   
     color: black;
     font-weight: bolder;
+    width: 100%;
     
     
 }
@@ -114,10 +116,17 @@ textarea {
     box-shadow: 0 0 0 0.2rem rgba(52, 58, 64, 0.5);
   }
 
-.centrar {
-    align-items: center;
-    align-content: center;
-    justify-content: center;
-    justify-items: center
-    ;
+.video-responsive {
+    width: 100%;
+    height: 400px;
+}
+.video-responsive iframe {
+    width: 100%;
+    height: 300px;
+}
+.banner img{
+width: 100%;
+}
+section img {
+    width: 100%;
 }
