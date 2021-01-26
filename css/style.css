@@ -16,8 +16,9 @@ footer ul li {
 
 nav {
   grid-area: nav;
-  position: relative;
-  z-index: 1000; }
+  position: fixed;
+  z-index: 1000;
+  width: 100%; }
 
 .navbar-dark .navbar-brand {
   color: skyblue;
@@ -211,7 +212,7 @@ select, input, textarea {
 .banner {
   width: 100%;
   position: absolute;
-  margin-top: -5px;
+  margin-top: 5%;
   height: 45%; }
 
 section img {
@@ -224,7 +225,7 @@ section img {
   width: 50%;
   height: 50%;
   position: absolute;
-  margin: 19rem;
+  margin: 23.5rem;
   margin-left: 21rem;
   border: 3px solid rgba(0, 0, 0, 0.15);
   border-radius: 0.25rem; }

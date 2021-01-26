@@ -1,7 +1,8 @@
 nav {
     grid-area: nav; 
-    position: relative;
+    position: fixed;
     z-index: 1000;
+    width: 100%;
     }
 
     .navbar-dark .navbar-brand {
