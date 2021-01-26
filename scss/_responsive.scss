@@ -33,11 +33,17 @@
     .banner {
         width: 100%;
         position: absolute;
-        margin-top: -10px;
-        height: 45%;
+        margin-top: -8%;
+        height: 30%;
         
         }
-    
+        .indice {
+            margin-left: 20%;
+            margin-top: 45%;
+            height: 70%;
+            width: 80%;
+            margin-right: 0%;
+        }
     section{
     
     width: 25rem;
@@ -69,16 +75,19 @@
 
     }
 
-    @media only screen and (max-width: 768px) {
+    @media only screen and (max-width: 768px) and (min-width: 500px){
         .indice {
             margin-left: 12.5rem;
-            margin-top: 26rem;
+            margin-top: 18.5rem;
+            height: 70%;
+            width: 75%;
+            margin-right: 0rem;
         }
         .banner {
             width: 100%;
             position: absolute;
-            margin-top: -4.75%;
-            height: 45%;
+            margin-top: -8%;
+            height: 33%;
             
             }
     }
@@ -98,7 +107,7 @@
             
             }
         h1 {
-            margin-left: 1rem;
+            
         }
         
     }

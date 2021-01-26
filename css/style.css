@@ -1,7 +1,7 @@
 footer {
   grid-area: footer;
   margin-left: 0px;
-  border-top: 4px solid black;
+  border-top: 4px solid deepskyblue;
   position: relative; }
 
 footer ul {
@@ -222,7 +222,7 @@ section img {
   background-color: #343a40;
   z-index: 1000;
   width: 50%;
-  height: 45%;
+  height: 50%;
   position: absolute;
   margin: 19rem;
   margin-left: 21rem;
@@ -262,8 +262,14 @@ body {
   .banner {
     width: 100%;
     position: absolute;
-    margin-top: -10px;
-    height: 45%; }
+    margin-top: -8%;
+    height: 30%; }
+  .indice {
+    margin-left: 20%;
+    margin-top: 45%;
+    height: 70%;
+    width: 80%;
+    margin-right: 0%; }
   section {
     width: 25rem; }
   .section__contenido {
@@ -283,15 +289,18 @@ body {
       position: absolute;
       width: 100%; } }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) and (min-width: 500px) {
   .indice {
     margin-left: 12.5rem;
-    margin-top: 26rem; }
+    margin-top: 18.5rem;
+    height: 70%;
+    width: 75%;
+    margin-right: 0rem; }
   .banner {
     width: 100%;
     position: absolute;
-    margin-top: -4.75%;
-    height: 45%; } }
+    margin-top: -8%;
+    height: 33%; } }
 
 @media only screen and (max-width: 480px) and (min-width: 380px) {
   .indice {
@@ -303,9 +312,7 @@ body {
     width: 100%;
     position: absolute;
     margin-top: -4.75%;
-    height: 30%; }
-  h1 {
-    margin-left: 1rem; } }
+    height: 30%; } }
 
 #grilla {
   display: grid;
@@ -336,6 +343,6 @@ h2 {
   font-weight: bold; }
 
 h3 {
-  color: skyblue;
+  color: whitesmoke;
   font-weight: bold;
   text-align: center; }
