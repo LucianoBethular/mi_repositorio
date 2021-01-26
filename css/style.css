@@ -249,6 +249,10 @@ body {
     justify-content: center;
     width: 100%;
     height: 5rem; }
+  nav {
+    grid-area: nav;
+    position: relative;
+    z-index: 1000; }
   #grilla {
     display: grid;
     grid-template-areas: "nav nav nav" "contenido contenido contenido" "contenido contenido contenido" "footer footer footer";

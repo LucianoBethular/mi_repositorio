@@ -14,6 +14,12 @@
     height:5rem;
     }
     
+    nav {
+        grid-area: nav; 
+        position: relative;
+        z-index: 1000;
+        }
+    
     #grilla {
     display: grid; 
     grid-template-areas:
