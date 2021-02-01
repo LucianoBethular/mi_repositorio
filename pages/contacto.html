@@ -3,13 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacto con EMB montajes</title>
+    <title>EMB - Contacto</title>
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
     <script src="../js/bootstrap.js"></script>
     <link rel="stylesheet" href="../css/bootstrap.css">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@900&display=swap" rel="stylesheet">  
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://raw.github.com/daneden/animate.css/master/animate.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/> 
     <meta name="description" content="pagina de contanto sobre montaje donde se puede ver ubicacion y mandar consultas">
     <meta name="keywords" content="consultas, presupuestos, mapa, bahia blanca, montaje, metalurgica">
 </head>
@@ -27,7 +30,7 @@
                 <a class="nav-link " aria-current="page" href="servicios.html">Servicios</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link " href="quienesomos.html">Quienes Somos?</a>
+                <a class="nav-link " href="quienesomos.html">Nosotros</a>
             </li>
             <li class="nav-item  dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -48,8 +51,10 @@
     </nav>
 </nav>
 <section class="section__contenido">
+<h2 class="animate__animated animate__zoomInDown">Contacto</h2>
 <div class="formulario">
-    <h2>Contacto</h2>
+    <div class="fomulario2">
+
 <p>En caso de querer realizar una consulta o que realizemos un presupuesto, complete los siguientes campos:</p>
 <form>
     
@@ -63,27 +68,25 @@
      
         <label for="exampleFormControlInput1"></label>
         <input type="tel" class="form-control" id="exampleFormControlInput1" placeholder="Numero de telefono">
-    
 
-    </div>
-    <div class="form-group">
-      <label for="exampleFormControlTextarea1">Ingrese su consulta aqui:</label>
-      <textarea class="form-control" id="exampleFormControlTextarea1" rows="10" placeholder="Escribe aqui"></textarea>
-    </div>
-    <div class="form-check">
+        <label for="exampleFormControlTextarea1"></label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Escriba aqui"></textarea>
+    <br>
         <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
         <label class="form-check-label" for="defaultCheck1">
         Quiere recibir email de EMB?
         </label>
-      </div>
-      <div>
+
+        <br>
+        <br>
       <button type="submit" class="btn btn-dark">Enviar</button>
       <button type="reset" class="btn btn-dark">Limpiar formulario</button>
-    </div>
   </form>
-  <div class="section__mapa">
+</div>
+<div class="mapa">
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d118456.36724084285!2d-62.34109755917009!3d-38.72244748489516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95edbcabdc1302bd%3A0x76d1d88d241e7a11!2sBah%C3%ADa%20Blanca%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1607362738840!5m2!1ses-419!2sar" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
     <br>
+</div>
 </div>
 </section>
 <footer>
