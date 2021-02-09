@@ -352,7 +352,7 @@ body {
     display: flex;
     flex-direction: column-reverse;
     background-color: #343a40;
-    max: height 10.5rem;
+    max-height: 10.5rem;
     height: auto;
     min-height: 10.5rem;
     padding-top: 1rem;
