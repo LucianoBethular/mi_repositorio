@@ -372,9 +372,7 @@ body {
     transform: translate(0px, 0px); }
     .section__mapa iframe {
       position: absolute;
-      width: 100%; }
-  h1 {
-    color: whitesmoke; } }
+      width: 100%; } }
 
 @media only screen and (max-width: 768px) and (min-width: 480px) {
   .indice {
@@ -432,7 +430,7 @@ header {
   padding: 0px; }
 
 h1 {
-  font-size: 5rem;
+  font-size: 6vw;
   font-family: 'Londrina Solid', cursive;
   font-weight: bolder;
   text-decoration: none;
@@ -449,7 +447,8 @@ h2 {
 h3 {
   color: whitesmoke;
   font-weight: bold;
-  text-align: center; }
+  text-align: center;
+  font-size: 2vw; }
 
 .titulo {
   text-align: center; }
