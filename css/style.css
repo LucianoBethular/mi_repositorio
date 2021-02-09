@@ -352,7 +352,7 @@ body {
     display: flex;
     flex-direction: column-reverse;
     background-color: #343a40;
-    max-height: 10.5rem;
+    max-height: auto;
     height: auto;
     min-height: 10.5rem;
     padding-top: 1rem;
@@ -372,7 +372,9 @@ body {
     transform: translate(0px, 0px); }
     .section__mapa iframe {
       position: absolute;
-      width: 100%; } }
+      width: 100%; }
+  h1 {
+    color: whitesmoke; } }
 
 @media only screen and (max-width: 768px) and (min-width: 480px) {
   .indice {

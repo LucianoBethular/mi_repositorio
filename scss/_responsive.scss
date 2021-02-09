@@ -62,7 +62,7 @@
         display: flex;
         flex-direction: column-reverse;
         background-color: #343a40;
-        max-height: 10.5rem;
+        max-height: auto;
         height: auto;
         min-height: 10.5rem;
         padding-top: 1rem;
@@ -90,7 +90,9 @@
         width: 100%;
     }
         }
-
+        h1{
+            color:whitesmoke;
+        }
 
         
     }
