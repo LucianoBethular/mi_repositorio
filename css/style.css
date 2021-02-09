@@ -117,8 +117,11 @@ section {
   align-items: center;
   justify-content: center;
   align-content: center;
+  justify-content: center;
   padding-top: 0px;
-  margin-top: 1.5rem; }
+  margin-top: 1.5rem;
+  padding-left: 2%;
+  padding-right: 2%; }
 
 .section__contenido2 {
   display: flex;
@@ -204,8 +207,8 @@ select, input, textarea {
   box-shadow: 0 0 0 0.2rem rgba(52, 58, 64, 0.5); }
 
 .video-responsive {
-  width: 50%;
-  height: 26rem; }
+  width: 60%;
+  height: 27rem; }
 
 .video-responsive iframe {
   width: 100%;
@@ -285,9 +288,19 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    width: 90%;
-    height: 28rem;
+    width: 100%;
+    height: auto;
     margin-bottom: 3%; }
+  .objetivo {
+    background-color: #343a40;
+    z-index: 1000;
+    width: 100%;
+    height: auto;
+    border: 3px solid rgba(0, 0, 0, 0.15);
+    border-radius: 0.25rem;
+    border-color: 0.15s ease-in-out;
+    box-shadow: 0.15s ease-in-out;
+    margin: 2%; }
   .formulario {
     display: flex;
     flex-direction: column;
@@ -300,7 +313,7 @@ body {
     z-index: 1000; }
   .banner {
     width: 100%;
-    height: 30%; }
+    height: 22rem; }
   .indice {
     margin-left: 10%;
     height: 70%;
@@ -333,7 +346,7 @@ body {
     margin-right: 1%; }
   .banner {
     width: 100%;
-    height: 33%; }
+    height: 22rem; }
   .carousel-inner {
     height: 27rem; }
   .accordion-item button {
@@ -344,9 +357,12 @@ body {
     width: 100%;
     border: 0px; }
   .servicios {
-    width: 70%; } }
+    width: 70%; }
+  .video-responsive {
+    width: 80%;
+    height: 27rem; } }
 
-@media only screen and (max-width: 480px) and (min-width: 380px) {
+@media only screen and (max-width: 480px) and (min-width: 300px) {
   .indice {
     margin-left: 10%;
     height: 70%;
@@ -354,7 +370,7 @@ body {
     margin-right: 1%; }
   .banner {
     width: 100%;
-    height: 30%; }
+    height: 15rem; }
   .carousel-inner {
     height: 25rem; }
   .accordion-item button {
@@ -365,7 +381,12 @@ body {
     width: 100%;
     border: 0px; }
   .servicios {
-    width: 70%; } }
+    width: 70%; }
+  h1 {
+    font-size: 2rem; }
+  .video-responsive {
+    width: 90%;
+    height: 27rem; } }
 
 header {
   top: 0%;

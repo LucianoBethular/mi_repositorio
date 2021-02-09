@@ -12,9 +12,11 @@ section{
     align-items: center;
     justify-content: center;
     align-content: center;
+    justify-content: center;
     padding-top: 0px;
     margin-top: 1.5rem;
-    
+    padding-left: 2%;
+    padding-right: 2%;
 }
 
 .section__contenido2 {
@@ -101,6 +103,8 @@ textarea {
     color: skyblue;
     opacity: 2;
 }
+
+
 .btn-dark {
     color: skyblue;
     background-color: #343a40;
@@ -120,8 +124,8 @@ textarea {
   }
 
 .video-responsive {
-    width: 50%;
-    height: 26rem;
+    width: 60%;
+    height: 27rem;
 }
 .video-responsive iframe {
     width: 100%;
