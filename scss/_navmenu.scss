@@ -1,8 +1,11 @@
-nav {
-    grid-area: nav; 
-    position: fixed;
+nav { 
+    display: flex;
+    flex-direction: row;
     z-index: 1000;
     width: 100%;
+    margin-top: 0rem;
+    padding-top: 0rem;
+
     }
 
     .navbar-dark .navbar-brand {

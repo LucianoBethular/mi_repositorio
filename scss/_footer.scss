@@ -1,17 +1,16 @@
 footer {
-    grid-area: footer;
     margin-left: 0px;
     border-top: 4px solid deepskyblue ;
     position: relative;
-    
-     
 }
 
 footer ul {
     display: flex;
-    flex-direction:row-reverse;
+    flex-direction:row;
     list-style: none;
     align-items: flex-end;
+    justify-content: flex-end;
+    align-content: flex-end;
     margin-top: 1rem;
 }
 
