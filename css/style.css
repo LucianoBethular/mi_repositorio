@@ -1,15 +1,15 @@
 footer {
-  margin-left: 0px;
-  border-top: 4px solid deepskyblue;
-  position: relative; }
+  background-color: #343a40;
+  height: 7rem;
+  padding-top: 0.4rem; }
 
 footer ul {
   display: flex;
   flex-direction: row;
   list-style: none;
-  align-items: flex-end;
+  align-items: center;
   justify-content: flex-end;
-  align-content: flex-end;
+  align-content: center;
   margin-top: 1rem; }
 
 footer ul li {
@@ -273,9 +273,6 @@ section img {
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   margin: 2%; }
 
-.texto {
-  text-align: center; }
-
 body {
   font-family: 'Poppins', sans-serif;
   color: black;
@@ -414,5 +411,7 @@ h3 {
   text-align: center; }
 
 .titulo {
-  grid-area: titulo;
+  text-align: center; }
+
+.texto {
   text-align: center; }
