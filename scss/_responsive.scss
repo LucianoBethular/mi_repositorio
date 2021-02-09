@@ -58,7 +58,20 @@
         margin-top: 1.5rem;
         
     }
-    footer ul {
+    footer {
+        display: flex;
+        flex-direction: column-reverse;
+        background-color: #343a40;
+        max: height 10.5rem;
+        height: auto;
+        min-height: 10.5rem;
+        padding-top: 1rem;
+        justify-content: center;
+        padding-right: 1%;
+        align-items: center;
+        padding-bottom: 1rem;
+    }
+    .redes {
     display: flex;
     list-style: none;
     align-items: center;

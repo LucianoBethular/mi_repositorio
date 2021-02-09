@@ -1,9 +1,14 @@
 footer {
+  display: flex;
+  flex-direction: row;
   background-color: #343a40;
-  height: 7rem;
-  padding-top: 0.4rem; }
+  height: 10rem;
+  padding-top: 0.4rem;
+  justify-content: space-between;
+  padding-right: 1%;
+  align-items: center; }
 
-footer ul {
+.redes {
   display: flex;
   flex-direction: row;
   list-style: none;
@@ -14,6 +19,28 @@ footer ul {
 
 footer ul li {
   padding-left: 10px; }
+
+.logos {
+  width: 3.5rem;
+  height: 3.5rem; }
+
+.contactar {
+  display: flex;
+  flex-direction: column;
+  min-width: 40%;
+  width: auto;
+  font-size: 0.9rem;
+  color: whitesmoke; }
+
+.contactar p {
+  text-align: center;
+  font-size: 1rem;
+  font-weight: bolder;
+  color: whitesmoke;
+  text-decoration: underline; }
+
+.contactar ul {
+  list-style: square; }
 
 nav {
   display: flex;
@@ -321,7 +348,19 @@ body {
   .section__contenido {
     margin-left: 0.5rem;
     margin-top: 1.5rem; }
-  footer ul {
+  footer {
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: #343a40;
+    max: height 10.5rem;
+    height: auto;
+    min-height: 10.5rem;
+    padding-top: 1rem;
+    justify-content: center;
+    padding-right: 1%;
+    align-items: center;
+    padding-bottom: 1rem; }
+  .redes {
     display: flex;
     list-style: none;
     align-items: center;
