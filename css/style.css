@@ -418,11 +418,17 @@ body {
     border: 0px; }
   .servicios {
     width: 70%; }
-  h1 {
-    font-size: 2rem; }
   .video-responsive {
     width: 90%;
-    height: 27rem; } }
+    height: 27rem; }
+  h3 {
+    font-size: 1rem; }
+  h1 {
+    font-size: 1rem;
+    font-family: 'Londrina Solid', cursive;
+    text-decoration: none;
+    color: deepskyblue;
+    margin-left: -15%; } }
 
 header {
   top: 0%;
@@ -430,12 +436,13 @@ header {
   padding: 0px; }
 
 h1 {
-  font-size: 6vw;
+  font-size: 5rem;
   font-family: 'Londrina Solid', cursive;
   font-weight: bolder;
   text-decoration: none;
   color: deepskyblue;
-  margin-left: -15%; }
+  margin-left: -15%;
+  word-wrap: break-word; }
 
 h2 {
   color: deepskyblue;
@@ -447,8 +454,7 @@ h2 {
 h3 {
   color: whitesmoke;
   font-weight: bold;
-  text-align: center;
-  font-size: 2vw; }
+  text-align: center; }
 
 .titulo {
   text-align: center; }
